@@ -9,13 +9,14 @@ public class MoveSide : MonoBehaviour
     //public Collider2D rightT;
     [SerializeField] public GameObject playerPos;
     private bool playerTouchEdge;
+   
     Rigidbody2D playerRb;
     
 
     void Start()
     {
         playerTouchEdge = false;
-
+       
         //playerRb = playerPos.GetComponent<Rigidbody2D>();
 
     }
@@ -23,11 +24,12 @@ public class MoveSide : MonoBehaviour
     
     void Update()
     {
-        if (playerTouchEdge == true)
+        if (playerTouchEdge == true )
         {
             playerPos.transform.position = new Vector2(-playerPos.transform.position.x, playerPos.transform.position.y);
 
-            playerTouchEdge = false;
+           
+           
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
@@ -37,5 +39,9 @@ public class MoveSide : MonoBehaviour
             playerTouchEdge = true;
            
         }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        playerTouchEdge = false;
     }
 }
