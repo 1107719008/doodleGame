@@ -34,4 +34,11 @@ public class Player : MonoBehaviour
     
     }
 
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+        if (col.tag == "bottom")
+        {
+            FindObjectOfType<GameManager>().Invoke("EndGame", 0.5f);
+        }
+    }
 }

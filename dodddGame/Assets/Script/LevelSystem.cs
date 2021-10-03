@@ -16,7 +16,8 @@ public class LevelSystem : MonoBehaviour
     void Start()
     {
         Vector3 spawnPos=new Vector3();
-
+        
+        //first set of platform
         for(int i = 0; i < numberOfPlat; i++)
         {
             spawnPos.y += Random.Range(minY, maxY);

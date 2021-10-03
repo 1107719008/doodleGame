@@ -28,7 +28,14 @@ public class Score : MonoBehaviour
         _lastPosition = this.transform.position;
 
         showScore.text = score.ToString();
+        FinalScore();
     }
+
+    void FinalScore()
+    {
+        PlayerPrefs.SetInt("FinalScore", score);
+    }
+
 
     void OnGUI()
     {
