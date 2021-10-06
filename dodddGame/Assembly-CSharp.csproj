@@ -56,14 +56,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\MoveSide.cs" />
+    <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\Platform.cs" />
     <Compile Include="Assets\Script\Score.cs" />
     <Compile Include="Assets\Script\Player.cs" />
     <Compile Include="Assets\Script\CameraFollow.cs" />
     <Compile Include="Assets\Script\LevelSystem.cs" />
-    <Compile Include="Assets\Script\GameManager.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Sprite Pack\Tap and Fly\Readme.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2020.1.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
