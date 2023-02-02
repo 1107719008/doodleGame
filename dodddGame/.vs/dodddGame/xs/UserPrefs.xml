@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{9FCCB1F9-F724-266B-2616-38E80292D0DF}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Score.cs">
+    <Files>
+      <File FileName="Assets/Script/Score.cs" Line="11" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="dodddGame" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="87a876a3-8321-4fc3-b0d1-a732ff9a0981" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
